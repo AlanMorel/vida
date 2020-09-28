@@ -2,6 +2,12 @@
   "name": "@alanmorel/vida",
   "version": "0.0.7",
   "description": "",
+  "author": "Alan Morel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlanMorel/vida.git"
+  },
+  "license": "MIT",
   "main": "dist/vida.ssr.js",
   "browser": "dist/vida.esm.js",
   "module": "dist/vida.esm.js",
