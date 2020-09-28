@@ -53,7 +53,7 @@ function _arrayLikeToArray(arr, len) {
 function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }var script = vue.defineComponent({
-  name: 'VidaSample',
+  name: "VidaSample",
   // vue component name
   data: function data() {
     return {
@@ -70,37 +70,33 @@ function _nonIterableRest() {
       var _message$amount;
 
       var message = this.message;
-      if (!message.action) return 'initialized';
-      return "".concat(message === null || message === void 0 ? void 0 : message.action, " ").concat((_message$amount = message.amount) !== null && _message$amount !== void 0 ? _message$amount : '').trim();
+      if (!message.action) return "initialized";
+      return "".concat(message === null || message === void 0 ? void 0 : message.action, " ").concat((_message$amount = message.amount) !== null && _message$amount !== void 0 ? _message$amount : "").trim();
     }
   },
   methods: {
     increment: function increment(arg) {
-      var amount = typeof arg !== 'number' ? 1 : arg;
+      var amount = typeof arg !== "number" ? 1 : arg;
       this.counter += amount;
-      this.message.action = 'incremented by';
+      this.message.action = "incremented by";
       this.message.amount = amount;
     },
     decrement: function decrement(arg) {
-      var amount = typeof arg !== 'number' ? 1 : arg;
+      var amount = typeof arg !== "number" ? 1 : arg;
       this.counter -= amount;
-      this.message.action = 'decremented by';
+      this.message.action = "decremented by";
       this.message.amount = amount;
     },
     reset: function reset() {
       this.counter = this.initCounter;
-      this.message.action = 'reset';
+      this.message.action = "reset";
       this.message.amount = null;
     }
   }
-});const _withId = /*#__PURE__*/vue.withScopeId("data-v-7b85bdd2");
-
-vue.pushScopeId("data-v-7b85bdd2");
-const _hoisted_1 = { class: "vida-sample" };
+});const _hoisted_1 = { class: "vida-sample" };
 const _hoisted_2 = /*#__PURE__*/vue.createTextVNode(".");
-vue.popScopeId();
 
-const render = /*#__PURE__*/_withId(function render(_ctx, _cache, $props, $setup, $data, $options) {
+function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (vue.openBlock(), vue.createBlock("div", _hoisted_1, [
     vue.createVNode("p", null, [
       vue.createTextVNode("The counter was " + vue.toDisplayString(_ctx.changedBy) + " to ", 1 /* TEXT */),
@@ -123,7 +119,7 @@ const render = /*#__PURE__*/_withId(function render(_ctx, _cache, $props, $setup
       onClick: _cache[5] || (_cache[5] = (...args) => (_ctx.reset(...args)))
     }, " Reset ")
   ]))
-});function styleInject(css, ref) {
+}function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
   var insertAt = ref.insertAt;
 
@@ -148,9 +144,8 @@ const render = /*#__PURE__*/_withId(function render(_ctx, _cache, $props, $setup
   } else {
     style.appendChild(document.createTextNode(css));
   }
-}var css_248z = "\n.vida-sample[data-v-7b85bdd2] {\n    display: block;\n    width: 400px;\n    margin: 25px auto;\n    border: 1px solid #ccc;\n    background: #eaeaea;\n    text-align: center;\n    padding: 25px;\n}\n.vida-sample p[data-v-7b85bdd2] {\n    margin: 0 0 1em;\n}\n";
-styleInject(css_248z);script.render = render;
-script.__scopeId = "data-v-7b85bdd2";/* eslint-disable import/prefer-default-export */var components=/*#__PURE__*/Object.freeze({__proto__:null,VidaSample: script});var install = function installVida(app) {
+}var css_248z = "\n.vida-sample {\n        display: block;\n        width: 400px;\n        margin: 25px auto;\n        border: 1px solid #ccc;\n        background: #eaeaea;\n        text-align: center;\n        padding: 25px;\n}\n.vida-sample p {\n        margin: 0 0 1em;\n}\n";
+styleInject(css_248z);script.render = render;/* eslint-disable import/prefer-default-export */var components=/*#__PURE__*/Object.freeze({__proto__:null,VidaSample: script});var install = function installVida(app) {
   Object.entries(components).forEach(function (_ref) {
     var _ref2 = _slicedToArray(_ref, 2),
         componentName = _ref2[0],
@@ -158,19 +153,16 @@ script.__scopeId = "data-v-7b85bdd2";/* eslint-disable import/prefer-default-exp
 
     app.component(componentName, component);
   });
-}; // Create module definition for Vue.use()
-
+};
 
 var plugin = {
   install: install
-}; // To allow individual component use, export components
-var components$1=/*#__PURE__*/Object.freeze({__proto__:null,'default': plugin,VidaSample: script});// only expose one global var, with named exports exposed as properties of
-// that global var (eg. VivintIcon.iconList)
-
-Object.entries(components$1).forEach(function (_ref) {
+};var components$1=/*#__PURE__*/Object.freeze({__proto__:null,'default': plugin,VidaSample: script});Object.entries(components$1).forEach(function (_ref) {
   var _ref2 = _slicedToArray(_ref, 2),
       componentName = _ref2[0],
       component = _ref2[1];
 
-  if (componentName !== 'default') plugin[componentName] = component;
+  if (componentName !== "default") {
+    plugin[componentName] = component;
+  }
 });module.exports=plugin;

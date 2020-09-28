@@ -1,18 +1,13 @@
 <script>
-import { defineComponent } from 'vue';
-// Uncomment import and local "components" registration if library is not registered globally.
-// import { VidaSample } from '@/entry.esm';
+    import { defineComponent } from "vue";
 
-export default defineComponent({
-  name: 'ServeDev',
-  // components: {
-  //  VidaSample,
-  // }
-});
+    export default defineComponent({
+        name: "ServeDev"
+    });
 </script>
 
 <template>
-  <div id="app">
-    <vida-sample />
-  </div>
+    <div id="app">
+        <vida-sample />
+    </div>
 </template>
