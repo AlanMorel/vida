@@ -1,18 +1,18 @@
-<template>
-    <div id="app">
-        <vida-sample />
-    </div>
-</template>
-
 <script>
-    import Vue from "vue";
-    import { VidaSample } from "@/entry";
+import { defineComponent } from 'vue';
+// Uncomment import and local "components" registration if library is not registered globally.
+// import { VidaSample } from '@/entry.esm';
 
-    export default Vue.extend({
-        name: "ServeDev",
-        components: {
-            VidaSample
-        }
-    });
+export default defineComponent({
+  name: 'ServeDev',
+  // components: {
+  //  VidaSample,
+  // }
+});
 </script>
 
+<template>
+  <div id="app">
+    <vida-sample />
+  </div>
+</template>

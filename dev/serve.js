@@ -1,8 +1,10 @@
-import Vue from "vue";
-import Dev from "./serve.vue";
+import { createApp } from 'vue';
+import Dev from './serve.vue';
+// To register individual components where they are used (serve.vue) instead of using the
+// library as a whole, comment/remove this import and it's corresponding "app.use" call
+import Vida from '@/entry.esm';
 
-Vue.config.productionTip = false;
+const app = createApp(Dev);
+app.use(Vida);
 
-new Vue({
-    render: (h) => h(Dev),
-}).$mount("#app");
+app.mount('#app');
