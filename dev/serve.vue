@@ -8,6 +8,8 @@
 
 <template>
     <div id="app">
-        <vida-sample />
+        <SpinnerIcon theme="dark" />
+        <EyeClosedIcon />
+        <EyeOpenedIcon />
     </div>
 </template>
