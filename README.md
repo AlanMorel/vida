@@ -24,9 +24,9 @@ or alternatively explicitly tell Vue where you're getting the component from, li
     <VidaSample />
 </template>
 
-import { VidaSample } from "@alanmorel/vida";
-
 <script>
+    import { VidaSample } from "@alanmorel/vida";
+
     export default {
         name: "App",
         components: {
