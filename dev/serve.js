@@ -1,10 +1,6 @@
 import { createApp } from "vue";
-import Dev from "./serve.vue";
+import Serve from "./serve.vue";
 
-import Vida from "@/entry.esm";
-
-const app = createApp(Dev);
-
-app.use(Vida);
+const app = createApp(Serve);
 
 app.mount("#app");

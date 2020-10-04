@@ -5,16 +5,14 @@
 </template>
 
 <script>
-    import { defineComponent } from "vue";
-
     import Icon from "@/components/icons/Icon";
 
-    export default defineComponent({
+    export default {
         name: "EyeOpenedIcon",
         components: {
             Icon
         }
-    });
+    };
 </script>
 
 <style lang="stylus">

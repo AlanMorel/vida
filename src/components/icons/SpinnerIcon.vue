@@ -5,11 +5,9 @@
 </template>
 
 <script>
-    import { defineComponent } from "vue";
-
     import Icon from "@/components/icons/Icon";
 
-    export default defineComponent({
+    export default {
         name: "SpinnerIcon",
         components: {
             Icon
@@ -20,7 +18,7 @@
                 required: true
             }
         }
-    });
+    };
 </script>
 
 <style lang="stylus">
