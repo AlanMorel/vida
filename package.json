@@ -1,13 +1,12 @@
 {
   "name": "@alanmorel/vida",
   "version": "0.0.11",
-  "description": "",
   "author": "Alan Morel",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/AlanMorel/vida.git"
   },
-  "license": "MIT",
   "main": "dist/vida.common.js",
   "browser": "dist/vida.esm.js",
   "module": "dist/vida.esm.js",
