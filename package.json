@@ -19,18 +19,17 @@
     "build": "vue-cli-service build --target lib --name vida src/index.js"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.9.0",
     "vue": "^3.0.0-rc.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "@vue/cli-plugin-babel": "^4.5.6",
-    "@vue/cli-service": "^4.5.6",
-    "@vue/compiler-sfc": "^3.0.0-rc.9",
-    "style-loader": "^1.2.1",
-    "stylus": "^0.54.8",
-    "stylus-loader": "^3.0.2",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@vue/cli-plugin-babel": "^v5.0.0-alpha.4",
+    "@vue/cli-service": "^v5.0.0-alpha.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
     "vue": "^3.0.0-rc.13"
   },
   "peerDependencies": {

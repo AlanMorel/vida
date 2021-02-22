@@ -16,7 +16,7 @@
     };
 </script>
 
-<style lang="stylus">
+<style lang="scss">
     .icon {
         pointer-events: none;
     }

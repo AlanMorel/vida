@@ -21,7 +21,7 @@
     };
 </script>
 
-<style lang="stylus">
+<style lang="scss">
     .spinner-icon {
         animation: rotate 2s linear infinite;
 
