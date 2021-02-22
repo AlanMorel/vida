@@ -1,14 +1,16 @@
 # Vida
+
 Vida is a Vue 3 component library for utility components.
 
 ## How to use
 
-1) Install `vida` by running this command in the root folder of your Vue project:
+1. Install `vida` by running this command in the root folder of your Vue project:
+
 ```
-npm install @alanmorel/vida
+yarn add @alanmorel/vida
 ```
 
-2) Tell your app to use `vida` globally:
+2. Tell your app to use `vida` globally:
 
 ```
 import Vida from "@alanmorel/vida";
@@ -19,6 +21,7 @@ app.use(Vida);
 ```
 
 or alternatively explicitly tell Vue where you're getting the component from, like so:
+
 ```
 <template>
     <VidaSample />
