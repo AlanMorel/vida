@@ -1,38 +1,38 @@
 {
-  "name": "@alanmorel/vida",
-  "version": "0.0.11",
-  "author": "Alan Morel",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AlanMorel/vida.git"
-  },
-  "main": "dist/vida.common.js",
-  "browser": "dist/vida.esm.js",
-  "module": "dist/vida.esm.js",
-  "unpkg": "dist/vida.min.js",
-  "files": [
-    "dist/*"
-  ],
-  "scripts": {
-    "serve": "vue-cli-service serve dev/serve.js",
-    "build": "vue-cli-service build --target lib --name vida src/index.js"
-  },
-  "dependencies": {
-    "core-js": "^3.9.0",
-    "vue": "^3.0.0-rc.13"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.17",
-    "@babel/preset-env": "^7.12.17",
-    "@vue/cli-plugin-babel": "^v5.0.0-alpha.4",
-    "@vue/cli-service": "^v5.0.0-alpha.4",
-    "@vue/compiler-sfc": "^3.0.5",
-    "sass": "^1.32.8",
-    "sass-loader": "^11.0.1",
-    "vue": "^3.0.0-rc.13"
-  },
-  "peerDependencies": {
-    "vue": "^3.0.0-rc.13"
-  }
+    "name": "@alanmorel/vida",
+    "version": "0.0.11",
+    "author": "Alan Morel",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlanMorel/vida.git"
+    },
+    "main": "dist/vida.common.js",
+    "browser": "dist/vida.esm.js",
+    "module": "dist/vida.esm.js",
+    "unpkg": "dist/vida.min.js",
+    "files": [
+        "dist/*"
+    ],
+    "scripts": {
+        "serve": "vue-cli-service serve dev/serve.js",
+        "build": "vue-cli-service build --target lib --name vida src/index.js"
+    },
+    "dependencies": {
+        "core-js": "^3.9.0",
+        "vue": "^3.0.0-rc.13"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.17",
+        "@babel/preset-env": "^7.12.17",
+        "@vue/cli-plugin-babel": "^v5.0.0-alpha.4",
+        "@vue/cli-service": "^v5.0.0-alpha.4",
+        "@vue/compiler-sfc": "^3.0.5",
+        "sass": "^1.32.8",
+        "sass-loader": "^11.0.1",
+        "vue": "^3.0.0-rc.13"
+    },
+    "peerDependencies": {
+        "vue": "^3.0.0-rc.13"
+    }
 }
