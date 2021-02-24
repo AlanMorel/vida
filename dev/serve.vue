@@ -7,6 +7,7 @@
         <SpinnerIcon theme="dark" />
         <EyeClosedIcon />
         <EyeOpenedIcon />
+        <ProgressButton text="Hello!" :progress="false" />
     </div>
 </template>
 
@@ -17,6 +18,8 @@
     import SpinnerIcon from "@/components/icons/SpinnerIcon";
     import EyeClosedIcon from "@/components/icons/EyeClosedIcon";
     import EyeOpenedIcon from "@/components/icons/EyeOpenedIcon";
+    import ProgressButton from "@/components/utility/ProgressButton";
+
     import Vida from "@/components/Vida";
 
     export default defineComponent({
@@ -26,7 +29,8 @@
             FormInput,
             SpinnerIcon,
             EyeClosedIcon,
-            EyeOpenedIcon
+            EyeOpenedIcon,
+            ProgressButton
         }
     });
 </script>
