@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+button {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+select {
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: solid 1px lightgray;
+    border-radius: 0.25rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    border: solid 1px lightgray;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    outline: 0;
+    transition: box-shadow 0.25s ease;
+
+    &:focus {
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
+    }
+}
+
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="submit"],
+input[type="password"],
+textarea {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    box-shadow: none;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 0.25rem;
+    border-style: none;
+}
+
+.l-container {
+    max-width: calc(100% - 2rem);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+[data-tip] {
+    position: relative;
+    cursor: help;
+
+    &:before {
+        position: absolute;
+        content: attr(data-tip);
+        background-color: rgba(0, 0, 0, 0.8);
+        bottom: calc(100% + 0.25rem);
+        border-radius: 0.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.25rem 0.75rem;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s linear 0.2s, opacity 0.2s 0s;
+        min-width: 5rem;
+    }
+
+    &:hover,
+    &:focus {
+        &:before {
+            opacity: 1;
+            visibility: visible;
+            transition: visibility 0s linear 0s, opacity 0.2s 0s;
+        }
+    }
+}
+
+.basic-button {
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border: 0;
+    transition: all 0.25s ease;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.25s ease;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}

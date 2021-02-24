@@ -16,7 +16,7 @@
     ],
     "scripts": {
         "serve": "vue-cli-service serve dev/serve.js",
-        "build": "vue-cli-service build --target lib --name vida src/index.js"
+        "build": "vue-cli-service build --target lib --name vida src/index.js --watch"
     },
     "dependencies": {
         "core-js": "^3.9.0",
