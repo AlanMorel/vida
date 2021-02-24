@@ -9,6 +9,7 @@
         <EyeOpenedIcon />
         <ProgressButton text="Hello!" :progress="false" />
         <StrengthIndicator :strength="2" />
+        <ValidationList :successes="successes" :errors="errors" />
     </div>
 </template>
 
@@ -21,6 +22,7 @@
     import EyeOpenedIcon from "@/components/icons/EyeOpenedIcon";
     import ProgressButton from "@/components/utility/ProgressButton";
     import StrengthIndicator from "@/components/utility/StrengthIndicator";
+    import ValidationList from "@/components/utility/ValidationList";
 
     import Vida from "@/components/Vida";
 
@@ -33,8 +35,13 @@
             EyeClosedIcon,
             EyeOpenedIcon,
             ProgressButton,
-            StrengthIndicator
-        }
+            StrengthIndicator,
+            ValidationList
+        },
+        data: () => ({
+            errors: ["error 1"],
+            successes: ["success 1"]
+        })
     });
 </script>
 
