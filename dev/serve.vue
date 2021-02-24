@@ -8,6 +8,7 @@
         <EyeClosedIcon />
         <EyeOpenedIcon />
         <ProgressButton text="Hello!" :progress="false" />
+        <StrengthIndicator :strength="2" />
     </div>
 </template>
 
@@ -19,6 +20,7 @@
     import EyeClosedIcon from "@/components/icons/EyeClosedIcon";
     import EyeOpenedIcon from "@/components/icons/EyeOpenedIcon";
     import ProgressButton from "@/components/utility/ProgressButton";
+    import StrengthIndicator from "@/components/utility/StrengthIndicator";
 
     import Vida from "@/components/Vida";
 
@@ -30,7 +32,8 @@
             SpinnerIcon,
             EyeClosedIcon,
             EyeOpenedIcon,
-            ProgressButton
+            ProgressButton,
+            StrengthIndicator
         }
     });
 </script>
