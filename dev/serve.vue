@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Vida />
         <FormInput forText="test" placeholder="Username">
             <input type="text" />
         </FormInput>
@@ -16,12 +17,12 @@
     import SpinnerIcon from "@/components/icons/SpinnerIcon";
     import EyeClosedIcon from "@/components/icons/EyeClosedIcon";
     import EyeOpenedIcon from "@/components/icons/EyeOpenedIcon";
-    import Global from "@/styles/global.scss";
+    import Vida from "@/components/Vida";
 
     export default defineComponent({
         name: "Serve",
         components: {
-            Global,
+            Vida,
             FormInput,
             SpinnerIcon,
             EyeClosedIcon,
