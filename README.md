@@ -6,7 +6,7 @@ Vida is a Vue 3 component library for utility components.
 
 1. Install `vida` by running this command in the root folder of your Vue project:
 
-```
+```sh
 yarn add @alanmorel/vida
 ```
 
@@ -38,3 +38,13 @@ or alternatively explicitly tell Vue where you're getting the component from, li
     };
 </script>
 ```
+
+## How to preview
+
+To preview all that Vida has to offer, simply run the example page:
+
+```sh
+yarn serve
+```
+
+Then go to `http://localhost:8081` to see all the Vida components.
