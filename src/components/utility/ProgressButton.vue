@@ -49,8 +49,7 @@
 
         .spinner-icon {
             position: absolute;
-            top: 0.5rem;
-            left: 0.5rem;
+            top: 50%;
         }
     }
 
