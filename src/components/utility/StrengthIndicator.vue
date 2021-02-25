@@ -12,6 +12,8 @@
 </template>
 
 <script>
+    import { reactive } from "vue";
+
     export default {
         name: "StrengthIndicator",
         props: {
@@ -21,9 +23,9 @@
             }
         },
         setup() {
-            return {
+            return reactive({
                 total: 4
-            };
+            });
         },
         computed: {
             calculatedStrength() {
