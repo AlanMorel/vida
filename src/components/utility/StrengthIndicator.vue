@@ -20,9 +20,11 @@
                 required: true
             }
         },
-        data: () => ({
-            total: 4
-        }),
+        setup() {
+            return {
+                total: 4
+            };
+        },
         computed: {
             calculatedStrength() {
                 return this.strength > -1 ? this.total - this.strength : 0;

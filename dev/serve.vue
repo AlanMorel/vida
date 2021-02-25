@@ -38,10 +38,12 @@
             StrengthIndicator,
             ValidationList
         },
-        data: () => ({
-            errors: ["error 1"],
-            successes: ["success 1"]
-        })
+        setup() {
+            return {
+                errors: ["error 1"],
+                successes: ["success 1"]
+            };
+        }
     });
 </script>
 
