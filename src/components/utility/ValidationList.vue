@@ -14,7 +14,9 @@
 </template>
 
 <script>
-    export default {
+    import { defineComponent } from "vue";
+
+    export default defineComponent({
         name: "ValidationList",
         props: {
             errors: {
@@ -24,7 +26,7 @@
                 type: Array
             }
         }
-    };
+    });
 </script>
 
 <style lang="scss">

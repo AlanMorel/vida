@@ -12,9 +12,9 @@
 </template>
 
 <script>
-    import { reactive } from "vue";
+    import { defineComponent, reactive } from "vue";
 
-    export default {
+    export default defineComponent({
         name: "StrengthIndicator",
         props: {
             strength: {
@@ -50,7 +50,7 @@
                 return "none";
             }
         }
-    };
+    });
 </script>
 
 <style lang="scss">

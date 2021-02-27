@@ -8,9 +8,11 @@
 </template>
 
 <script>
+    import { defineComponent } from "vue";
+
     import SpinnerIcon from "@/components/icons/SpinnerIcon";
 
-    export default {
+    export default defineComponent({
         name: "ProgressButton",
         components: {
             SpinnerIcon
@@ -26,7 +28,7 @@
             }
         },
         emits: ["click"]
-    };
+    });
 </script>
 
 <style lang="scss">
