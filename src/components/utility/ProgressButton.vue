@@ -50,6 +50,7 @@
         .spinner-icon {
             position: absolute;
             top: 50%;
+            left: 1rem;
         }
     }
 

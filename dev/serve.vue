@@ -7,7 +7,7 @@
         <SpinnerIcon theme="dark" />
         <EyeClosedIcon />
         <EyeOpenedIcon />
-        <ProgressButton text="Hello!" :progress="false" />
+        <ProgressButton text="Hello!" :progress="true" />
         <StrengthIndicator :strength="2" />
         <ValidationList :successes="successes" :errors="errors" />
     </div>

@@ -41,10 +41,10 @@
 
     @keyframes rotate {
         0% {
-            transform: translateY(-50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
         }
         100% {
-            transform: translateY(-50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
         }
     }
 

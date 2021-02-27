@@ -59,6 +59,7 @@ input[type="checkbox"] {
     border-color: rgba(0, 0, 0, 0.15);
     width: 1.125rem;
     height: 1.125rem;
+    box-shadow: none;
 
     &:before {
         font-weight: bold;
@@ -72,8 +73,7 @@ input[type="checkbox"] {
         font-size: 0.875rem;
     }
 
-    &:hover,
-    &:focus {
+    &:hover {
         background-color: rgba(0, 0, 0, 0.15);
 
         &:before {
