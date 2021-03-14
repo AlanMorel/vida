@@ -19,15 +19,16 @@
         "build": "vue-cli-service build --target lib --name vida src/index.js --watch"
     },
     "dependencies": {
-        "core-js": "^3.9.0",
+        "@vue/babel-preset-app": "^4.5.11",
+        "core-js": "^3.9.1",
         "vue": "^3.0.0-rc.13"
     },
     "devDependencies": {
         "@babel/core": "^7.12.17",
         "@babel/preset-env": "^7.12.17",
-        "@vue/cli-plugin-babel": "^v5.0.0-alpha.4",
-        "@vue/cli-service": "^v5.0.0-alpha.4",
-        "@vue/compiler-sfc": "^3.0.5",
+        "@vue/cli-plugin-babel": "^5.0.0-alpha.7",
+        "@vue/cli-service": "^v5.0.0-alpha.7",
+        "@vue/compiler-sfc": "^3.0.7",
         "sass": "^1.32.8",
         "sass-loader": "^11.0.1",
         "vue": "^3.0.0-rc.13"
