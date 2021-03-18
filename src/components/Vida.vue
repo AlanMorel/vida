@@ -1,6 +1,6 @@
 <template></template>
 
-<script>
+<script lang="ts">
     import { defineComponent } from "vue";
 
     import "@/styles/colors.scss";

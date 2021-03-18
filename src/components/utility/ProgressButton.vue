@@ -7,10 +7,10 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
     import { defineComponent } from "vue";
 
-    import SpinnerIcon from "@/components/icons/SpinnerIcon";
+    import SpinnerIcon from "@/components/icons/SpinnerIcon.vue";
 
     export default defineComponent({
         name: "ProgressButton",

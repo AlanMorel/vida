@@ -11,7 +11,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
     import { defineComponent, reactive } from "vue";
 
     export default defineComponent({
@@ -28,12 +28,12 @@
             });
         },
         computed: {
-            calculatedStrength() {
+            calculatedStrength(): number {
                 return this.strength > -1 ? this.total - this.strength : 0;
             }
         },
         methods: {
-            getStrengthColor(index) {
+            getStrengthColor(index: number) {
                 if (index > this.calculatedStrength) {
                     return "none";
                 }

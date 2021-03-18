@@ -13,18 +13,18 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
     import { defineComponent } from "vue";
 
-    import FormInput from "@/components/utility/FormInput";
-    import SpinnerIcon from "@/components/icons/SpinnerIcon";
-    import EyeClosedIcon from "@/components/icons/EyeClosedIcon";
-    import EyeOpenedIcon from "@/components/icons/EyeOpenedIcon";
-    import ProgressButton from "@/components/utility/ProgressButton";
-    import StrengthIndicator from "@/components/utility/StrengthIndicator";
-    import ValidationList from "@/components/utility/ValidationList";
+    import FormInput from "@/components/utility/FormInput.vue";
+    import SpinnerIcon from "@/components/icons/SpinnerIcon.vue";
+    import EyeClosedIcon from "@/components/icons/EyeClosedIcon.vue";
+    import EyeOpenedIcon from "@/components/icons/EyeOpenedIcon.vue";
+    import ProgressButton from "@/components/utility/ProgressButton.vue";
+    import StrengthIndicator from "@/components/utility/StrengthIndicator.vue";
+    import ValidationList from "@/components/utility/ValidationList.vue";
 
-    import Vida from "@/components/Vida";
+    import Vida from "@/components/Vida.vue";
 
     export default defineComponent({
         name: "Serve",
