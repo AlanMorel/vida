@@ -1,6 +1,6 @@
 {
     "name": "@alanmorel/vida",
-    "version": "0.0.29",
+    "version": "0.0.30",
     "author": "Alan Morel",
     "license": "MIT",
     "repository": {
@@ -8,17 +8,17 @@
         "url": "https://github.com/AlanMorel/vida.git"
     },
     "type:": "module",
-    "main": "./dist/vida.umd.js",
-    "browser": "./dist/vida.mjs",
-    "module": "./dist/vida.mjs",
-    "unpkg": "./dist/vida.umd.js",
+    "main": "./dist/vida.js.umd.js",
+    "browser": "./dist/vida.js.mjs",
+    "module": "./dist/vida.js.mjs",
+    "unpkg": "./dist/vida.js.umd.js",
     "files": [
         "dist/*"
     ],
     "exports": {
         ".": {
-            "import": "./dist/vida.mjs",
-            "require": "./dist/vida.umd.js"
+            "import": "./dist/vida.js.mjs",
+            "require": "./dist/vida.js.umd.js"
         },
         "./dist/style.css": "./dist/style.css"
     },
