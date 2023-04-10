@@ -23,7 +23,8 @@
         "./dist/style.css": "./dist/style.css"
     },
     "scripts": {
-        "vite": "vite build"
+        "vite": "vite build",
+        "serve": "vite serve src/serve"
     },
     "dependencies": {
         "@vitejs/plugin-vue": "^4.1.0",
