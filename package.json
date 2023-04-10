@@ -23,7 +23,7 @@
         "./dist/style.css": "./dist/style.css"
     },
     "scripts": {
-        "vite": "vite build",
+        "build": "vite build",
         "serve": "vite serve src/serve"
     },
     "dependencies": {
